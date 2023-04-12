@@ -1,0 +1,61 @@
+html {
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-size: inherit;
+}
+
+input {
+    outline: none;
+}
+
+* {
+    outline: 0 !important;
+}
+
+body {
+    min-width: 320px;
+    height: 100vh;
+    font-size: 17px;
+    @extend %sf-regular;
+    color: #fff;
+    background-color: #080D2B;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
